@@ -75,7 +75,6 @@ add_action('wp_print_styles', 'add_my_stylesheet');
 		echo '<ul>';
 	/**
 	 *Weather API
-	 *To use this as a PHP script for your another website copy below codes here to </html> tag
 	 */
 
 	$xml = simplexml_load_file('http://www.google.com/ig/api?weather='.$name);
